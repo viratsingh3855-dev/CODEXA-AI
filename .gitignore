@@ -1,0 +1,43 @@
+# Node modules & dependencies
+node_modules/
+*/node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment variables & secrets (CRITICAL: Never commit to GitHub)
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+server/.env
+server/data/ai_config.json
+**/data/ai_config.json
+
+# Sandbox temp execution files & logs
+server/data/sandbox/
+**/data/sandbox/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archives
+*.zip
+*.tar.gz
+
+# System & OS Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Editor Settings (allow sharing .vscode launch/task configs)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
